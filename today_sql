@@ -1,0 +1,7 @@
+ALTER TABLE `broking_projects` ADD `cash_currently_have_left` DOUBLE NULL AFTER `team_size`;
+
+ALTER TABLE `broking_project_more_info` ADD `moving_office_next_12_months` ENUM('yes','no') NULL AFTER `additional_info`;
+
+ALTER TABLE `broking_project_more_info` ADD `lawyer_or_termsheet_in_place` ENUM('yes','no') NULL AFTER `moving_office_next_12_months`;
+
+
